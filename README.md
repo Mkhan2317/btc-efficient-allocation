@@ -32,15 +32,15 @@ The study employs a **walk-forward mean–variance optimizer** with:
 
 The scalarized mean–variance objective for a given \( \alpha \in [0,1] \) is:
 
-$$
+$
 J_\alpha(w) = (1 - \alpha)\, w^\top \Sigma w - \alpha\, \mu^\top w
-$$
+$
 
 subject to:
 
-$$
+$
 w \ge 0, \quad \mathbf{1}^\top w = 1, \quad w_{\text{BTC}} \le 0.10
-$$
+$
 
 Weights are updated using **projected gradient descent** with re-projection onto the simplex and optional capping.
 
@@ -94,9 +94,9 @@ Potential next steps for deeper analysis:
 - **Expanded universes**: add bonds, commodities, or gold  
 - **Regime conditioning**: activate BTC only in risk-on environments  
 - **Risk-target optimization**:  
-  $$
+  $
   \min_{w} w^\top \Sigma w \quad \text{s.t. } \mu^\top w \ge R^*
-  $$
+  $
 
 ---
 
