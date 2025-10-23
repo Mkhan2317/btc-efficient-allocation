@@ -1,8 +1,3 @@
-Here’s an **extremely professional and publication-ready `README.md`** for your GitHub repository — written in a polished research + engineering tone that appeals to both finance professionals and data scientists. It includes structured sections, LaTeX-style math for equations, and strong readability for a GitHub audience.
-
----
-
-````markdown
 # 📈 How Bitcoin Shifts the Efficient Frontier  
 *A Walk-Forward Multi-Objective Optimization Study in Python*
 
@@ -21,7 +16,6 @@ The results demonstrate that even a **small, capped BTC sleeve** (≤10%) can **
 ## ⚙️ Methodology
 
 The study employs a **walk-forward mean–variance optimizer** with:
-
 
 - **Long-only constraints**: \( w \ge 0, \; \mathbf{1}^\top w = 1 \)
 - **BTC allocation cap**: \( w_{\text{BTC}} \le 0.10 \)
@@ -114,32 +108,5 @@ Potential next steps for deeper analysis:
 | **Environment** | Google Colab / Jupyter Notebook |
 | **Data Source** | Yahoo Finance (`BTC-USD`, `SPY`, `QQQ`, `VEU`, `IWM`) |
 
----
-## 🏁 Conclusion
-
-A **small, prudently capped BTC sleeve** enhanced the **out-of-sample efficient frontier** under realistic assumptions.
-The improvement came not from leverage or speculation, but from **structural diversification** within a multi-asset framework.
-
-BTC, when managed responsibly, can serve as a **constructive component** in a modern equity portfolio.
-
----
-
-## 📚 Citation
-
-If you use this project in research, please cite as:
-
-> Khan, M. A. (2025). *How Bitcoin Shifts the Efficient Frontier: A Walk-Forward Multi-Objective Optimization Study in Python.*
-
----
-
-## 🧾 License
-
-This project is licensed under the **MIT License** — see [LICENSE](LICENSE) for details.
-
----
-
-*Author: [MD Amir Khan](https://github.com/Mkhan2317)*
-*Affiliation: Stevens Institute of Technology – M.S. Financial Engineering*
-*Contact: [mkhan37@stevens.edu](mkhan37@stevens.edu)*
 
 
