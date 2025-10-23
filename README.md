@@ -17,13 +17,14 @@ The results demonstrate that even a **small, capped BTC sleeve** (≤10%) can **
 
 The study employs a **walk-forward mean–variance optimizer** with:
 
-- **Long-only constraints**: \( w \ge 0, \; \mathbf{1}^\top w = 1 \)
-- **BTC allocation cap**: \( w_{\text{BTC}} \le 0.10 \)
-- **EWMA covariance** with decay factor \( \lambda = 0.94 \)
+- **Long-only constraints**: $ w \ge 0, \; \mathbf{1}^\top w = 1 $
+- **BTC allocation cap**: $ w_{\text{BTC}} \le 0.10 $
+- **EWMA covariance** with decay factor $ \lambda = 0.94 $
 - **Shrinkage** for both means and covariances
 - **Rolling winsorization** to reduce tail risk
 - **Turnover costs** of 10 basis points per round trip
 - **Intersected trading-day calendar** for ETF + BTC synchronization
+
 
 ---
 
